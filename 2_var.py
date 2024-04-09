@@ -34,14 +34,33 @@ millionnair"""
 
 # небольшой калькулятор
 
-num_1 = input("введите 1 число: ")
-num_2 = input("введите 2 число: ")
+# num_1 = input("введите 1 число: ")
+# num_2 = input("введите 2 число: ")
 
 # конкатенация строк
 # int
-result = num_1 + num_2 
+# result = num_1 + num_2 
 
 # конвертация данных
-result = int(num_1) + int(num_2)
+# result = int(num_1) + int(num_2)
 
-print("Результат =", result)
+# print("Результат =", result)
+# print("hello world")
+# int
+# num_1 = input("число1")
+# num_2 = input("число2")
+# result =2*int(num_1) + int(num_2)
+# print("результат =",result)
+# print(int(input("первое число: ")) + 2*int(input("второе число: ")))
+S = input("Напишите сумму кредита: ")
+N = input("Напишите срок кредита: ")
+P = input("Ставка кредита:  ")
+I = int(P) / 1200
+C = int(S) * float(I) * (1 + float(I)) ** int(N) / ((1 + float(I)) ** int(N) - 1)
+print("Ежемесячная оплата: ", C)
+
+
+print(C)
+
+
+
